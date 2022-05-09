@@ -4,7 +4,8 @@
 
 html {
     background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Adelle', sans-serif;
     font-size: 0.95em;
     line-height: 1.5em;
 }
@@ -20,6 +21,11 @@ h1 {
     background: #fff;
     line-height: 2.5em;
 }
+h1.logo {
+    font-family: 'Adelle', serif;
+    font-size: 48px;
+
+}
 
 main.wrapper {
     background-color: white;
@@ -28,6 +34,7 @@ main.wrapper {
 
 p {
     margin: 1em; /* Top Right Bottom Left (TRBL) */
+    font-family: 'Rockwell', serif;
 }
 
 h2,h3 {
@@ -58,7 +65,8 @@ footer {
 /* DESKTOP */
 @media all and (min-width:1200px) {
     main.wrapper {
-        width: 80%;
+        width: 45%;
+        hieght: 10%;
         margin: auto;
     }
     
@@ -107,7 +115,7 @@ footer {
     }
     
     picture.profile img {
-        width: 100%;
+        width: 50%;
     }
     
 }
